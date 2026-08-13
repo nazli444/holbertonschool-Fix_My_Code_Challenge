@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import sys
 
 for i in range(1, int(sys.argv[1]) + 1):
@@ -10,3 +11,4 @@ for i in range(1, int(sys.argv[1]) + 1):
         print("Buzz", end=" ")
     else:
         print(i, end=" ")
+print()
